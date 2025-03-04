@@ -22,7 +22,7 @@ import blobfile as bf
 from sparse_autoencoder.train import FastAutoencoder, make_torch_comms, load_activations, init_from_data_
 import random
 random.seed(42)
-os.environ["CUDA_VISIBLE_DEVICES"]="7"
+# os.environ["CUDA_VISIBLE_DEVICES"]="7"
 
 N_DIR = 8192
 K = 128
